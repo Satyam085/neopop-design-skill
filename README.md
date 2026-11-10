@@ -21,6 +21,19 @@ An agent skill that teaches AI coding agents to build UIs in **NeoPOP**, the ope
 npx skills add Satyam085/neopop-design-skill
 ```
 
+**Claude Code (plugin)**:
+
+```
+/plugin install neopop-design --marketplace Satyam085/neopop-design-skill
+```
+
+On Claude Code older than 2.1.275, add the marketplace first:
+
+```
+/plugin marketplace add Satyam085/neopop-design-skill
+/plugin install neopop-design@neopop-design-skill
+```
+
 **Claude Code (manual)**: copy the skill folder into your personal or project skills:
 
 ```sh

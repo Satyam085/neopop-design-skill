@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "neopop-design-skill",
+  "description": "NeoPOP design language skill for Claude Code (unofficial)",
+  "owner": {
+    "name": "Satyam Singh",
+    "url": "https://github.com/Satyam085"
+  },
+  "plugins": [
+    {
+      "name": "neopop-design",
+      "description": "Build UIs in CRED's open-source NeoPOP design language: 3D plunk buttons, black-first palette, bold type.",
+      "version": "1.0.0",
+      "source": "./",
+      "strict": false,
+      "skills": ["./neopop-design"],
+      "category": "design",
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/Satyam085/neopop-design-skill"
+    }
+  ]
+}
