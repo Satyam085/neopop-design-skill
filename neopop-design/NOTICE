@@ -1,0 +1,20 @@
+NeoPOP design skill (unofficial)
+Copyright 2026 Satyam Singh
+
+This product includes design values, CSS and SVG icon paths adapted from:
+
+  NeoPOP for web      https://github.com/CRED-CLUB/neopop-web
+  NeoPOP for Android  https://github.com/CRED-CLUB/neopop-android
+  Copyright 2022 Dreamplug Technologies Private Limited.
+  Licensed under the Apache License, Version 2.0.
+
+Changes made: the styled-components implementation was rewritten as
+framework-agnostic CSS; focus-visible outlines, reduced-motion handling and
+higher light-theme text contrast were added; accent colour presets were
+computed with the neopop-android edge-colour rule; usage guidance was written
+for AI agents.
+
+"CRED" and "NeoPOP" are used only to describe where this design comes from.
+This project is not affiliated with or endorsed by CRED or Dreamplug
+Technologies Private Limited. The Gilroy and PP Cirka typefaces are commercial
+fonts and are not included or licensed by this project.
